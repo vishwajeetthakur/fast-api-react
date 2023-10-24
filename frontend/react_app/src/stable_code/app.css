@@ -1,0 +1,117 @@
+/* App.css */
+
+.App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 20px; /* Add padding around the app for spacing */
+  }
+  
+  .App-header {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+    margin-bottom: 20px; /* Space below the header */
+  }
+  
+  .App-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    transition: all 0.3s ease-in-out; /* Smooth transitions */
+  }
+  
+  .left-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-right: 2px solid #555;
+  }
+  
+  .hamburger-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Increased gap between buttons */
+  }
+  
+  .middle-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    padding: 20px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 12px; /* Increased padding for larger touch area */
+    font-size: 16px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px; /* Increased gap below the input */
+    transition: border 0.3s ease-in-out; /* Smooth transition on focus */
+  }
+  
+  input[type="text"]:focus {
+    border-color: #555; /* Change border color on focus */
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out; /* Smooth transition on hover */
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  .main-content {
+    font-size: 18px;
+    padding: 20px;
+    margin-top: 20px; /* Add margin for spacing */
+  }
+  
+  /* Styles for the card */
+  .device-card {
+    border: 2px solid #333;
+    padding: 20px;
+    background-color: #c7ffd8;
+    max-height: 300px;
+    overflow-y: auto;
+    margin-top: 20px; /* Add margin for spacing */
+    transition: all 0.3s ease-in-out; /* Smooth transitions */
+  }
+  
+  .device-card p {
+    font-weight: bold;
+  }
+  
+  /* Error card styles */
+  .device-card.error {
+    border: 2px solid red;
+    background-color: #ffc0c0;
+  }
+  
+  .device-card.error .error-text {
+    color: red;
+  }
+  
+  
+  
